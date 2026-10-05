@@ -1,6 +1,6 @@
 # Taste Index — Best Landing Page & Web Design Inspiration Galleries (2026)
 
-> **A curated, opinionated index of the best landing page inspiration sites, web design galleries, UI component references, and design datasets for training or evaluating AI UI generation — rated by how well each one filters for taste.**
+> **A curated, opinionated index of the best landing page inspiration sites, web design galleries, UI component references, and design datasets for training or evaluating AI UI generation — rated by how well each one filters for taste. It also includes a [playbook](playbook.md), [AI prompts](prompts/) and a [taste checklist](taste-checklist.md) for turning those references into a beautiful landing page.**
 
 *Last updated: October 2026 · Maintained by [@admud](https://github.com/admud) · [CC0 licensed](LICENSE) · PRs welcome*
 
@@ -11,14 +11,26 @@
 - **Biggest library, but not filtered for taste:** [Mobbin](https://mobbin.com) (400,000+ app and web screenshots).
 - **Datasets for AI UI generation:** there is **no public, taste-filtered dataset of 10k beautiful landing pages**. The practical options are to combine curated galleries (and respect their terms), use research datasets such as [WebUI](https://uimodeling.github.io/), [WebSight](https://huggingface.co/datasets/HuggingFaceM4/WebSight) and [Design2Code](https://huggingface.co/datasets/SALT-NLP/Design2Code), or license data from a vendor such as [Taste Labs](https://tastelabs.com).
 
+## How to use this repo
+
+| You want to… | Start here |
+|---|---|
+| **Make a beautiful landing page** (by hand or with AI) | **[Playbook](playbook.md)**: references → style spec → copy → build → critique loop |
+| Get AI tools (Claude, Cursor, v0, Lovable) to output non-generic pages | **[Prompts](prompts/)**: copy-paste templates for style extraction, generation and critique |
+| Review a page, or brief a designer | **[Taste checklist](taste-checklist.md)**: concrete pass/fail rubric, plus the signs of a generic AI-made page |
+| Find inspiration | [Galleries](#landing-page--website-galleries) below |
+| Train or evaluate a UI model | [Datasets](#datasets-for-ai-ui-generation) and [building your own](#building-your-own-dataset) |
+
 ## Contents
 
+- [How to use this repo](#how-to-use-this-repo)
 - [Landing page & website galleries](#landing-page--website-galleries)
 - [Niche galleries](#niche-galleries)
 - [UI components & design systems](#ui-components--design-systems)
 - [Datasets for AI UI generation](#datasets-for-ai-ui-generation)
 - [Building your own dataset](#building-your-own-dataset)
 - [FAQ](#faq)
+- [Playbook](playbook.md) · [Prompts](prompts/) · [Taste checklist](taste-checklist.md)
 - [Sources](#sources)
 - [Contributing](#contributing)
 
@@ -80,6 +92,15 @@ The question that started this list was: *"anybody have a dataset of 1–10k of 
 
 ## FAQ
 
+### How do I make a beautiful landing page with AI?
+Don't prompt from nothing. (1) Collect 3–6 references from curated galleries, one per section; (2) turn them into a written style spec of type scale, colours, spacing and an avoid list; (3) write real copy first; (4) give the AI the spec, the copy and the reference screenshots, telling it to apply their principles, not copy them; (5) screenshot the result and have a *fresh* AI conversation critique it against a [taste checklist](taste-checklist.md), then fix the top 3 issues and repeat. The full workflow is in the [playbook](playbook.md), with copy-paste [prompts](prompts/).
+
+### Why do AI-generated landing pages all look the same?
+Without references, models fall back on the most common patterns: purple gradient heroes, "Supercharge your workflow" headlines, three identical icon cards, emoji icons and centred everything. The [taste checklist](taste-checklist.md#signs-of-a-generic-ai-made-page) lists these signs. The fix is to give the model curated visual references and a strict style spec, then critique its output against them.
+
+### What makes a landing page look beautiful?
+Mostly restraint and hierarchy: one or two typefaces with a clear scale, generous and consistent spacing, a neutral palette with one accent, real product UI instead of stock imagery, and specific, short copy. See the [taste checklist](taste-checklist.md) for the full, checkable list.
+
 ### What is the best website for landing page inspiration?
 For carefully curated quality: **One Page Love, Godly and Awwwards**. For SaaS specifically: **Saaspo**. For the largest searchable collection with filters: **Land-book**.
 
@@ -110,4 +131,4 @@ Know a gallery, dataset or component library with real taste? Open a PR. See [CO
 
 ---
 
-**Keywords:** landing page inspiration, web design inspiration, website design gallery, best landing pages, SaaS landing page examples, UI design inspiration, design inspiration sites, landing page dataset, UI dataset for AI, awesome landing pages, awesome design, web design resources, AI UI generation dataset, design taste
+**Keywords:** how to make a beautiful landing page, landing page design with AI, AI landing page prompts, landing page checklist, landing page inspiration, web design inspiration, website design gallery, best landing pages, SaaS landing page examples, UI design inspiration, design inspiration sites, landing page dataset, UI dataset for AI, awesome landing pages, awesome design, web design resources, AI UI generation dataset, design taste
