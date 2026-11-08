@@ -2,7 +2,7 @@
 
 > **A curated, opinionated index of the best landing page inspiration sites, web design galleries, UI component references, and design datasets for training or evaluating AI UI generation — rated by how well each one filters for taste. It also includes a [playbook](playbook.md), [AI prompts](prompts/) and a [taste checklist](taste-checklist.md) for turning those references into a beautiful landing page.**
 
-*Last updated: October 2026 · Maintained by [@admud](https://github.com/admud) · [CC0 licensed](LICENSE) · PRs welcome*
+*Last updated: November 2026 · Maintained by [@admud](https://github.com/admud) · [CC0 licensed](LICENSE) · PRs welcome*
 
 ## TL;DR
 
@@ -27,6 +27,7 @@
 - [Landing page & website galleries](#landing-page--website-galleries)
 - [Niche galleries](#niche-galleries)
 - [UI components & design systems](#ui-components--design-systems)
+- [Project and process references](#project-and-process-references)
 - [Datasets for AI UI generation](#datasets-for-ai-ui-generation)
 - [Building your own dataset](#building-your-own-dataset)
 - [FAQ](#faq)
@@ -67,6 +68,14 @@
 | [The Component Gallery](https://component.gallery) | A regularly updated collection of interface components drawn from real design systems, useful as a reference for anyone building UI |
 | [Lapa Ninja Elements](https://www.lapa.ninja/elements/) | Landing page UI elements (heroes, footers, menus, galleries) |
 | [Landingfolio](https://www.landingfolio.com) | Landing page sections and components |
+
+## Project and process references
+
+Selected examples that show how good interfaces are developed. These are individual references, not galleries; the gallery taste-filter rating does not apply.
+
+| Reference | What to study | Apply it |
+|---|---|---|
+| [Breeje Anadkat: app UI and motion with Claude Code](https://x.com/BreejeAnadkat/status/2119040284088787421) | Side-by-side visual corrections, explicit interaction states and testing transitions in use | [App UI and motion workflow](playbook.md#app-ui-and-motion-workflow) |
 
 ## Datasets for AI UI generation
 
