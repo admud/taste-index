@@ -71,11 +71,12 @@
 
 ## Project and process references
 
-Selected examples that show how good interfaces are developed. These are individual references, not galleries; the gallery taste-filter rating does not apply.
+Selected examples and resource roundups that help develop good interfaces. These are individual references, not gallery rankings; the gallery taste-filter rating does not apply.
 
 | Reference | What to study | Apply it |
 |---|---|---|
 | [Breeje Anadkat: app UI and motion with Claude Code](https://x.com/BreejeAnadkat/status/2119040284088787421) | Side-by-side visual corrections, explicit interaction states and testing transitions in use | [App UI and motion workflow](playbook.md#app-ui-and-motion-workflow) |
+| [Aman Singh: UI/UX resource roundup](https://x.com/amananimates/status/2119127905666314632) | Scrolltide, Scroll Shaders, Footer Design, CTA.gallery and Refero Styles: different resources for motion, page sections and design systems | [Match the reference to the job](playbook.md#match-the-reference-to-the-job) |
 
 ## Datasets for AI UI generation
 
