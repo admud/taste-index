@@ -61,6 +61,27 @@ npx playwright screenshot --full-page --device "iPhone 13" https://example.com r
 
 > **Rule:** references are for learning *principles* (scale, spacing, restraint, rhythm). Never copy a brand's distinctive layout, illustrations, copy or assets.
 
+### Match the reference to the job
+
+[Aman Singh's UI/UX resource roundup](https://x.com/amananimates/status/2119127905666314632) (8 November 2026) is a useful starting kit when you know which part of a page needs work. It links five different kinds of resource, rather than five interchangeable whole-site galleries:
+
+| Resource | What to study | Access and scope |
+|---|---|---|
+| [Scrolltide](https://www.scrolltide.co/) | Scroll-driven templates, prompts and individual components | Free and premium items; [plan restrictions](https://www.scrolltide.co/pricing) apply to 3D and other collections |
+| [Scroll Shaders](https://scrollshaders.com/) | WebGL backgrounds and shader components, with React/HTML and video formats | Public previews; code and downloads require a paid plan |
+| [Footer Design](https://www.footer.design/) | Footer hierarchy, link grouping and how a page ends; browse by type and style | Publicly browsable footer gallery with links to the original sites |
+| [CTA.gallery](https://www.cta.gallery/) | Calls to action by purpose, including forms, newsletters, downloads and pricing | Publicly browsable inspiration; screenshots do not prove conversion performance |
+| [Refero Styles](https://styles.refero.design/) | Product-site design systems: colours, typography, spacing, components and DESIGN.md references | Public style browsing; check the individual resource's access and reuse terms |
+
+**Apply the roundup:** these are our working principles, not claims that the post demonstrates a complete design process.
+
+1. **Name the gap first.** Choose a footer reference for navigation and closure, a CTA reference for the next action, a style reference for consistency, or a motion reference for a specific visual effect.
+2. **Extract one useful decision.** Write down the hierarchy, spacing rule or interaction you want to improve. Translate it into your own style spec instead of importing unrelated visual systems from every library.
+3. **Protect the page's job.** Keep the primary action and text clear. Use shaders and 3D only when they support the message; test contrast, mobile performance and a reduced-motion or static fallback before shipping.
+4. **Check the live implementation.** A gallery image is inspiration, not evidence of responsive behaviour, accessibility or conversion gains. Visit the original site and test the relevant states.
+
+The post text, a visible frame of its component-demo video and the linked sites were reviewed on 8 November 2026. No timing or performance claims are inferred from the clip. Library counts are omitted because the post and current site catalogues differ. The author's X profile identifies him as Scrolltide's co-founder, so treat the list as a creator's recommendations, not an independent ranking. Linked screenshots, prompts and code retain their owners' terms; this repository's CC0 license does not cover them.
+
 ## 3. Extract a style spec
 
 Turn the references into a short written spec of design tokens and rules. This is what keeps the build consistent, and it's the most important input for an AI tool.
