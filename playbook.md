@@ -101,6 +101,23 @@ Build section by section against the style spec. Use a modern stack you know (Ne
 3. **Build one section at a time** with the [section prompt](prompts/03-generate-section.md) when a section isn't working. Regenerating the whole page tends to undo good parts.
 4. Agents can also search curated design corpora directly. [Taste Labs](https://tastelabs.com) offers an MCP server that searches real sites by aesthetic.
 
+### App UI and motion workflow
+
+[Breeje Anadkat's app-building thread](https://x.com/BreejeAnadkat/status/2119040284088787421) (7 November 2026) is a useful companion to this playbook when a page includes interactive product UI or the work extends into an app.
+
+The thread describes repeated refinement with UI and motion references. The [visual comparison example](https://x.com/BreejeAnadkat/status/2119041908312003042) shows specific corrections to text, a gauge and corner radii. For harder animations, the author [draws two or three states in Figma](https://x.com/BreejeAnadkat/status/2119042314849202236); the image shows a swipe control at successive positions. The final step is [testing the app directly](https://x.com/BreejeAnadkat/status/2119042592411377801), because a transition can look convincing in a clip but feel slow to use.
+
+**Apply the method:**
+
+1. Choose one interaction with a clear user outcome. Gather a still reference for hierarchy and a motion reference for behaviour.
+2. Sketch its starting, intermediate and final states. Specify the trigger, timing, what changes and what stays anchored.
+3. Build a small working version, then compare matching screenshots side by side. Request concrete changes to spacing, type, colour and component shape.
+4. Tap through the actual flow. Try repeated input, cancellation and returning to the previous screen. Fix delays and lost state before adding decoration.
+
+These application checks extend the source: keep keyboard and tap alternatives for gestures, respect reduced motion, and make confirmation understandable without animation. Do not make urgent actions wait for a transition. Borrow the process while retaining the product's own visual language and accessibility requirements.
+
+The linked post and its comparison and state images were reviewed on 8 November 2026. Creator media remains at its source; this entry does not grant reuse rights.
+
 ## 6. Render, review, iterate
 
 This loop is where the quality comes from.
