@@ -82,6 +82,18 @@ npx playwright screenshot --full-page --device "iPhone 13" https://example.com r
 
 The post text, a visible frame of its component-demo video and the linked sites were reviewed on 8 November 2026. No timing or performance claims are inferred from the clip. Library counts are omitted because the post and current site catalogues differ. The author's X profile identifies him as Scrolltide's co-founder, so treat the list as a creator's recommendations, not an independent ranking. Linked screenshots, prompts and code retain their owners' terms; this repository's CC0 license does not cover them.
 
+### Turn an app shortlist into evidence
+
+[Jaimin's post](https://x.com/jaimintf/status/2121636709662441852) points to his [nine-app collection](https://appllama.io/u/jaimin/9-highly-unique-apps). His [follow-up prompt](https://x.com/jaimintf/status/2121637212249034982) asks an agent to inspect a selected app's screens and video with Appllama before building an inspired app. The post's image is a 3×3 grid of app icons, not a demonstration of their interfaces or behaviour.
+
+**Apply the shortlist:** these are our working checks, not a claim that the post proves the apps' usability.
+
+1. **Match one reference to one task.** Choose an app relevant to the user's goal, then inspect the actual screens and flow. An unusual icon or attractive thumbnail is only a lead; it cannot establish navigation, feedback or motion quality.
+2. **Name the mechanism and its evidence.** Record the screen or video timestamp, what happens before and after an action, and the specific hierarchy or interaction principle worth borrowing. Keep the product's own identity, copy and assets instead of mixing nine visual styles.
+3. **Build and verify one complete flow.** Use matching screenshots and a recording to compare the implementation with the inspected reference, then run the [app-flow review](prompts/06-review-app-flow.md), including repeated input, cancellation and failure states. Mark unobserved behaviour as not tested.
+
+The original post, its icon grid and the author's reply were reviewed on 15 November 2026; the linked collection page could not be loaded, and the individual apps' screens and videos were not reviewed. The linked [MCP](https://appllama.io/mcp) is part of Appllama Pro and uses credits; it is not required to apply these checks with references you can lawfully inspect. This entry installs nothing and grants no rights to the linked media.
+
 ## 3. Extract a style spec
 
 Turn the references into a short written spec of design tokens and rules. This is what keeps the build consistent, and it's the most important input for an AI tool.
