@@ -77,6 +77,7 @@ Selected examples and resource roundups that help develop good interfaces. These
 |---|---|---|
 | [Breeje Anadkat: app UI and motion with Claude Code](https://x.com/BreejeAnadkat/status/2119040284088787421) | Side-by-side visual corrections, explicit interaction states and testing transitions in use | [App UI and motion workflow](playbook.md#app-ui-and-motion-workflow) |
 | [Aman Singh: UI/UX resource roundup](https://x.com/amananimates/status/2119127905666314632) | Scrolltide, Scroll Shaders, Footer Design, CTA.gallery and Refero Styles: different resources for motion, page sections and design systems | [Match the reference to the job](playbook.md#match-the-reference-to-the-job) |
+| [Christy Lam: app onboarding teardown](https://www.instagram.com/reel/DfdM34dpiKp/) | Questionnaire screens and animation in an app onboarding flow | [Review onboarding as a sequence](playbook.md#review-onboarding-as-a-sequence) |
 
 ## Datasets for AI UI generation
 

@@ -139,6 +139,19 @@ These application checks extend the source: keep keyboard and tap alternatives f
 
 The linked post and its comparison and state images were reviewed on 8 November 2026. Creator media remains at its source; this entry does not grant reuse rights.
 
+### Review onboarding as a sequence
+
+[Christy Lam's app-onboarding reel](https://www.instagram.com/reel/DfdM34dpiKp/) is a process reference for the experience after a landing-page CTA. Visible sections discuss adding questions and animating screens, with examples of goal and diet-selection UI.
+
+**Apply the reference:** the following are this repository's review checks, not a transcript or a claim that every product should use a longer onboarding flow.
+
+1. **Give each question a job.** Note what the answer changes for the user. Explain why information is needed, and remove questions that do not improve the experience.
+2. **Keep progress understandable.** Use a clear primary action, preserve answers when going back, and make optional steps easy to skip.
+3. **Make motion earn its place.** Use animation to explain a transition or result, not to delay access. Check reduced motion and a usable static fallback.
+4. **Test the complete journey.** Try the path from the landing-page CTA through onboarding to first value. Measure completion, abandonment and comprehension in your own product before adopting extra steps or animation.
+
+The caption and selected visible video frames were reviewed on 11 November 2026; this is not a full transcription. Revenue and conversion figures in the reel are creator-reported and were not independently verified. They do not establish that these patterns will improve another app. Creator media stays at its source and is not covered by this repository's CC0 license.
+
 ## 6. Render, review, iterate
 
 This loop is where the quality comes from.
