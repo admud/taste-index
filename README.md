@@ -80,8 +80,11 @@ Selected examples and resource roundups that help develop good interfaces. These
 | [Jaimin: nine-app reference shortlist](https://x.com/jaimintf/status/2121636709662441852) | A creator-selected app collection and a prompt to inspect screens and video before building; the post itself shows icons, not flows | [Turn an app shortlist into evidence](playbook.md#turn-an-app-shortlist-into-evidence) |
 | [Christy Lam: app onboarding teardown](https://www.instagram.com/reel/DfdM34dpiKp/) | Questionnaire screens and animation in an app onboarding flow | [Review onboarding as a sequence](playbook.md#review-onboarding-as-a-sequence) |
 | [Viktor Oddy: design-resource roundup](https://x.com/viktoroddy/status/2123023905657172208) | Choose references by task: galleries, motion, typography, colour and icons. Land-book and Godly are already indexed above; the roundup also points to [60fps](https://60fps.design), [Fontshare](https://fontshare.com) and [Lucide](https://lucide.dev). | [Match the reference to the job](playbook.md#match-the-reference-to-the-job) |
+| [Florence: design tooling roundup](https://x.com/flxrnc/status/2123859460233793601) | Give agents a visual spec with [DESIGN.md](https://github.com/google-labs-code/design.md), critique the result with [Impeccable](https://github.com/pbakaus/impeccable), and generate contrast-aware palettes with [Leonardo](https://github.com/adobe/leonardo). | [Match the reference to the job](playbook.md#match-the-reference-to-the-job). Test one page before adding tools to a workflow. |
 
 Source note: Oddy's roundup text was checked on 19 November 2026 through an [author-profile mirror](https://teapawt.org/viktoroddy), whose timestamp links to the exact original post. Direct X access was unavailable. This is an attributed discovery list, not an independent ranking or a verification of every linked tool. The author promotes his own MotionSites products; pricing, catalogue counts and improvement claims are not adopted here. Check each resource's current access and reuse terms before using it.
+
+Florence's roundup text was checked through an [author-profile mirror](https://nitter.gq/flxrnc) whose timestamp links to the exact original status. The three selected tools were checked against upstream descriptions; their output quality was not tested.
 
 ## Datasets for AI UI generation
 
