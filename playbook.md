@@ -136,6 +136,8 @@ Build section by section against the style spec. Use a modern stack you know (Ne
 3. **Build one section at a time** with the [section prompt](prompts/03-generate-section.md) when a section isn't working. Regenerating the whole page tends to undo good parts.
 4. Agents can also search curated design corpora directly. [Taste Labs](https://tastelabs.com) offers an MCP server that searches real sites by aesthetic.
 
+[Prajwal Tomar's design-prompt thread](https://x.com/PrajwalTomar_/status/2124865857860059278) (23 November 2026) adds a choice before implementation: when the direction is unclear, compare three rough layouts for the same brief, each guided by a different reference, and pick one before building. Hold the copy and user task constant so the comparison tests the designs, not three different briefs. The thread text was checked through an [exact-ID mirror](https://teapawt.org/PrajwalTomar_/status/2124865857860059278); its model rankings and tool preferences are not requirements here.
+
 ### App UI and motion workflow
 
 [Breeje Anadkat's app-building thread](https://x.com/BreejeAnadkat/status/2119040284088787421) (7 November 2026) is a useful companion to this playbook when a page includes interactive product UI or the work extends into an app.
