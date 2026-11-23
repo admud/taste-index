@@ -73,9 +73,12 @@
 
 Selected examples and resource roundups that help develop good interfaces. These are individual references, not gallery rankings; the gallery taste-filter rating does not apply.
 
+Donadon's article was checked on 23 November 2026 through an [exact-ID mirror](https://teapawt.org/tobiadonadon_/article/2124632816701051271). The [author's FEEL page](https://www.tobiadonadon.com/projects/construct/material/skills/feel) is a companion reference, not an installation recommendation. The article describes browser checks and manual native interaction checks; the tool and its reported results were not independently tested.
+
 | Reference | What to study | Apply it |
 |---|---|---|
 | [Breeje Anadkat: app UI and motion with Claude Code](https://x.com/BreejeAnadkat/status/2119040284088787421) | Side-by-side visual corrections, explicit interaction states and testing transitions in use | [App UI and motion workflow](playbook.md#app-ui-and-motion-workflow) |
+| [Tobia Donadon: FEEL interaction audit](https://x.com/tobiadonadon_/status/2124632816701051271) | Review immediate press feedback, anchored sheets, readable and announced toasts, navigation direction and drag response. | [App UI and motion workflow](playbook.md#app-ui-and-motion-workflow). Test one flow in normal and reduced-motion modes; check keyboard and touch separately. |
 | [Aman Singh: UI/UX resource roundup](https://x.com/amananimates/status/2119127905666314632) | Scrolltide, Scroll Shaders, Footer Design, CTA.gallery and Refero Styles: different resources for motion, page sections and design systems | [Match the reference to the job](playbook.md#match-the-reference-to-the-job) |
 | [Jaimin: nine-app reference shortlist](https://x.com/jaimintf/status/2121636709662441852) | A creator-selected app collection and a prompt to inspect screens and video before building; the post itself shows icons, not flows | [Turn an app shortlist into evidence](playbook.md#turn-an-app-shortlist-into-evidence) |
 | [Christy Lam: app onboarding teardown](https://www.instagram.com/reel/DfdM34dpiKp/) | Questionnaire screens and animation in an app onboarding flow | [Review onboarding as a sequence](playbook.md#review-onboarding-as-a-sequence) |
