@@ -86,6 +86,8 @@ The post text, a visible frame of its component-demo video and the linked sites 
 
 [Jaimin's post](https://x.com/jaimintf/status/2121636709662441852) points to his [nine-app collection](https://appllama.io/u/jaimin/9-highly-unique-apps). His [follow-up prompt](https://x.com/jaimintf/status/2121637212249034982) asks an agent to inspect a selected app's screens and video with Appllama before building an inspired app. The post's image is a 3×3 grid of app icons, not a demonstration of their interfaces or behaviour.
 
+[Jaimin's follow-up on pairing references](https://x.com/jaimintf/status/2124519708125016215) (22 November 2026) makes one useful distinction: choose a flow reference for what users do and a design reference for how the interface presents it. They do not need to be the same app. For example, use one reference to map a booking flow's selection, confirmation and recovery states; use another to specify hierarchy, typography and spacing. Write down which reference informs each decision before building. The post text was verified through an [exact-ID mirror](https://teapawt.org/jaimintf/status/2124519708125016215); the booking example is this playbook's application, not a claim about the post's media.
+
 **Apply the shortlist:** these are our working checks, not a claim that the post proves the apps' usability.
 
 1. **Match one reference to one task.** Choose an app relevant to the user's goal, then inspect the actual screens and flow. An unusual icon or attractive thumbnail is only a lead; it cannot establish navigation, feedback or motion quality.
@@ -133,6 +135,8 @@ Build section by section against the style spec. Use a modern stack you know (Ne
 2. Use the **[page generation prompt](prompts/02-generate-page.md)**. It tells the model to apply the *principles* in the references, not to copy their layout.
 3. **Build one section at a time** with the [section prompt](prompts/03-generate-section.md) when a section isn't working. Regenerating the whole page tends to undo good parts.
 4. Agents can also search curated design corpora directly. [Taste Labs](https://tastelabs.com) offers an MCP server that searches real sites by aesthetic.
+
+[Prajwal Tomar's design-prompt thread](https://x.com/PrajwalTomar_/status/2124865857860059278) (23 November 2026) adds a choice before implementation: when the direction is unclear, compare three rough layouts for the same brief, each guided by a different reference, and pick one before building. Hold the copy and user task constant so the comparison tests the designs, not three different briefs. The thread text was checked through an [exact-ID mirror](https://teapawt.org/PrajwalTomar_/status/2124865857860059278); its model rankings and tool preferences are not requirements here.
 
 ### App UI and motion workflow
 
